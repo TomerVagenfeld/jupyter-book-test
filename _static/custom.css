@@ -1,0 +1,77 @@
+/* Set the body text to RTL */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+}
+
+/* Ensure code cells and outputs remain LTR */
+div.cell,
+div.text_cell,
+div.output_area {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Adjust navigation menu for RTL */
+nav.bd-sidebar {
+    direction: rtl;
+}
+
+/* Adjust other elements as needed */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+}
+
+/* Paragraphs */
+p {
+    text-align: right;
+}
+
+/* Lists */
+ul, ol {
+    text-align: right;
+}
+
+/* Tables */
+table {
+    direction: rtl;
+}
+
+/* Set the navigation sidebar to RTL */
+nav.bd-sidebar {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Adjust the TOC links */
+nav.bd-sidebar .bd-nav .nav li a {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Adjust list items in the TOC */
+nav.bd-sidebar .bd-nav .nav {
+    direction: rtl;
+}
+
+/* Handle numbering if used */
+nav.bd-sidebar .bd-nav .nav li::before {
+    float: right;
+    margin-left: 5px;
+}
+
+/* Ensure the main content remains RTL */
+div#site {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Keep code cells LTR */
+div.cell,
+div.text_cell,
+div.output_area {
+    direction: ltr;
+    text-align: left;
+}
