@@ -11,6 +11,14 @@ language: "he"
 execute:
   execute_notebooks: force
 
+repository:
+  url: https://github.com/TomerVagenfeld/jupyter-book-test.github.io
+  path_to_book: ""
+
+html: https://tomervagenfeld.github.io/jupyter-book-test.github.io
+  baseurl: jupyter-book-test.github.io
+
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
